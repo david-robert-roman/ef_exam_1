@@ -1,0 +1,23 @@
+# .gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (big CSVs, etc.)
+*.csv
+*.xlsx
+*.parquet
+
+# OS
+.DS_Store
+Thumbs.db
